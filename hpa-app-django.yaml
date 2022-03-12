@@ -1,7 +1,7 @@
 apiVersion: autoscaling/v2beta2
 kind: HorizontalPodAutoscaler
 metadata:
-  name: hpa-app-django-git
+  name: hpa-app-django-git2
   namespace: fiap-wrosalem
 spec:
   scaleTargetRef:
